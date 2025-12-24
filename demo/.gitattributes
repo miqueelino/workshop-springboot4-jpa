@@ -1,2 +1,6 @@
+# Normalização de final de linha
 /mvnw text eol=lf
 *.cmd text eol=crlf
+
+# Força o GitHub a identificar Java como linguagem principal
+*.java linguist-language=Java
