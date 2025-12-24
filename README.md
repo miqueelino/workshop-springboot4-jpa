@@ -4,7 +4,6 @@
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-brightgreen)
 ![Maven](https://img.shields.io/badge/Maven-3.9-blue)
 ![H2](https://img.shields.io/badge/Database-H2-lightgrey)
-![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-blue)
 
 ---
 
@@ -75,6 +74,7 @@ Essa abordagem facilita **testes**, **evolução do código** e **manutenção**
 - Java 17 ou superior
 - Maven
 
+
 ## ▶️ Passos para execução
 
 ```bash
@@ -83,31 +83,16 @@ cd workshop-springboot4-jpa
 mvn spring-boot:run
 
 
+```md
 ---
 
-
-🔎 Testes e validação
+## 🔎 Testes e validação
 
 Os endpoints podem ser testados utilizando ferramentas como:
 
-Postman
+- Postman
+- Insomnia
+- curl
 
-Insomnia
+---
 
-curl
-
-📈 Evoluções futuras (roadmap)
-
-Integração com banco de dados relacional (PostgreSQL)
-
-Autenticação e autorização (Spring Security / JWT)
-
-Documentação de API com Swagger / OpenAPI
-
-Testes automatizados (JUnit / Mockito)
-
-Versionamento de API
-
-📄 Considerações finais
-
-Projeto desenvolvido com foco em aprendizado prático, aplicando conceitos amplamente utilizados em times backend de instituições financeiras e grandes empresas, priorizando código limpo, organização e padrões de mercado.
