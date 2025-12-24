@@ -75,16 +75,6 @@ Essa abordagem facilita **testes**, **evolução do código** e **manutenção**
 - Maven
 
 
-## 🔎 Testes e validação
-
-Os endpoints podem ser testados utilizando ferramentas como:
-
-- Postman
-- Insomnia
-- curl
-
----
-
 
 ## ▶️ Passos para execução
 
@@ -92,10 +82,16 @@ Os endpoints podem ser testados utilizando ferramentas como:
 git clone https://github.com/miqueelino/workshop-springboot4-jpa.git
 cd workshop-springboot4-jpa
 mvn spring-boot:run
+```
 
 
-```md
----
+## 🔎 Testes e validação
+
+Os endpoints podem ser testados utilizando ferramentas como:
+
+- Postman
+- Insomnia
+- curl
 
 
 
