@@ -31,7 +31,7 @@ A aplicação segue o padrão de **arquitetura em camadas**, facilitando manuten
 * Criação de endpoints REST seguindo boas práticas
 * Persistência de dados com **Spring Data JPA**
 * Integração com banco de dados relacional
-* Validação de dados e regras de negócio
+* Implementação de regras de negócio na camada de serviço
 * Estrutura organizada e de fácil manutenção
 
 ---
