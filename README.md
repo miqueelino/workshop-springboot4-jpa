@@ -7,44 +7,32 @@
 
 ---
 
-## 📌 Visão Geral
+## 📌 Descrição
 
-Esta aplicação é uma **API REST desenvolvida em Java com Spring Boot**, utilizando **JPA/Hibernate** para persistência de dados.  
-O projeto segue **boas práticas de arquitetura backend**, com foco em **organização, clareza e manutenibilidade**, simulando um cenário próximo ao utilizado em **ambientes corporativos e financeiros**.
+Projeto backend desenvolvido em **Java com Spring Boot**, com foco na criação de **APIs REST** e persistência de dados utilizando **Spring Data JPA**.
 
-O banco **H2** é utilizado para o ambiente de testes, permitindo rápida execução e validação da aplicação.
-
----
-
-## 🧱 Arquitetura
-
-A aplicação está estruturada em **camadas bem definidas**, promovendo separação de responsabilidades:
-
-- **Resource (Controller)**  
-  Responsável por expor os endpoints REST e lidar com requisições HTTP.
-
-- **Service**  
-  Contém as regras de negócio e orquestra as operações da aplicação.
-
-- **Repository**  
-  Camada de acesso a dados utilizando Spring Data JPA.
-
-Essa abordagem facilita **testes**, **evolução do código** e **manutenção**, alinhada a padrões usados em projetos corporativos.
+O objetivo do projeto é demonstrar boas práticas de desenvolvimento backend, como **arquitetura em camadas**, separação de responsabilidades, organização de código e integração com **banco de dados relacional**, simulando cenários comuns de aplicações corporativas.
 
 ---
 
-## 🧠 Conceitos e práticas aplicadas
+## 🏗️ Arquitetura
 
-- Arquitetura em camadas
-- Injeção de dependência
-- Padrão REST
-- CRUD completo
-- JPA / Hibernate
-- Mapeamento de entidades e relacionamentos
-- Banco de dados em memória (H2)
-- Profiles de ambiente (test)
-- Tratamento global de exceções
-- Boas práticas de organização de código
+A aplicação segue o padrão de **arquitetura em camadas**, facilitando manutenção, escalabilidade e entendimento do código:
+
+* **Controller** – Exposição dos endpoints REST
+* **Service** – Regras de negócio e validações
+* **Repository** – Acesso a dados com Spring Data JPA
+* **Entity** – Mapeamento objeto-relacional (ORM)
+
+---
+
+## 🚀 Funcionalidades
+
+* Criação de endpoints REST seguindo boas práticas
+* Persistência de dados com **Spring Data JPA**
+* Integração com banco de dados relacional
+* Validação de dados e regras de negócio
+* Estrutura organizada e de fácil manutenção
 
 ---
 
@@ -58,40 +46,71 @@ Essa abordagem facilita **testes**, **evolução do código** e **manutenção**
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="40"/>
 </p>
 
-- **Java 17**
-- **Spring Boot**
-- **Spring Data JPA**
-- **Hibernate**
-- **H2 Database**
-- **Maven**
-- **Postman**
+
+## 🧰 Tecnologias Utilizadas
+
+* **Java**
+* **Spring Boot**
+* **Spring Data JPA**
+* **API REST**
+* **Banco de Dados SQL**
+* **Maven**
+* **Git / GitHub**
+* **Postman**
 
 ---
 
-## ▶️ Execução do projeto
+## ▶️ Como executar o projeto
 
-### 📋 Pré-requisitos
-- Java 17 ou superior
-- Maven
+### Pré-requisitos
 
+* Java 17+
+* Maven
+* Banco de dados configurado (ou H2, se aplicável)
 
-
-## ▶️ Passos para execução
+### Passos
 
 ```bash
+# Clone o repositório
 git clone https://github.com/miqueelino/workshop-springboot4-jpa.git
+
+# Acesse o diretório do projeto
 cd workshop-springboot4-jpa
+
+# Execute a aplicação
 mvn spring-boot:run
 ```
 
+A aplicação estará disponível em:
 
-## 🔎 Testes e validação
+```
+http://localhost:8080
+```
 
-Os endpoints podem ser testados utilizando ferramentas como:
+---
 
-- Postman
-- Insomnia
-- curl
+## 📡 Endpoints
+
+Os endpoints REST estão organizados seguindo padrões RESTful, permitindo operações como criação, consulta, atualização e remoção de dados.
+
+*(Detalhes específicos dos endpoints podem ser encontrados nos controllers do projeto.)*
+
+---
+
+## 🎯 Objetivo do Projeto
+
+Este projeto tem como objetivo consolidar conhecimentos em **desenvolvimento backend com Java**, aplicando conceitos utilizados em ambientes profissionais e demonstrando capacidade de construir APIs bem estruturadas e escaláveis.
+
+---
+
+## 👤 Autor
+
+**João Miquelino**
+Backend Developer | Java & Spring Boot
+[LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-miquelino-95ba34202/)
+
+---
+
 
 
 
