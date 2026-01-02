@@ -36,7 +36,6 @@ A aplicação segue o padrão de **arquitetura em camadas**, facilitando manuten
 
 ---
 
-## 🛠️ Tecnologias
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40"/>
