@@ -86,11 +86,21 @@ http://localhost:8080
 
 ---
 
-## 📡 Endpoints
+📡 Endpoints
 
-Os endpoints REST estão organizados seguindo padrões RESTful, permitindo operações como criação, consulta, atualização e remoção de dados.
+A API segue padrões RESTful, permitindo operações de criação, consulta, atualização e remoção de dados.
 
-*(Detalhes específicos dos endpoints podem ser encontrados nos controllers do projeto.)*
+Exemplo de endpoints:
+
+GET /api/recursos
+
+POST /api/recursos
+
+PUT /api/recursos/{id}
+
+DELETE /api/recursos/{id}
+
+Os endpoints completos podem ser encontrados nos controllers do projeto.
 
 ---
 
