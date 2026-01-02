@@ -86,7 +86,7 @@ http://localhost:8080
 
 ---
 
-📡 Endpoints
+## 📡 Endpoints
 
 A API segue padrões RESTful, permitindo operações de criação, consulta, atualização e remoção de dados.
 
