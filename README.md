@@ -36,6 +36,7 @@ A aplicação segue o padrão de **arquitetura em camadas**, facilitando manuten
 
 ---
 
+## 🧰 Tecnologias Utilizadas
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40"/>
@@ -44,9 +45,6 @@ A aplicação segue o padrão de **arquitetura em camadas**, facilitando manuten
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" width="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="40"/>
 </p>
-
-
-## 🧰 Tecnologias Utilizadas
 
 * **Java**
 * **Spring Boot**
